@@ -41,7 +41,7 @@ const App = () => {
           <div className="coin-info">
             <p className="key info">Info</p>
           </div>
-          <div className="data">
+          <div className="key data">
             <p className="key price">Price</p>
             <p className="key volume">Volume</p>
             <p className="key percent">Price Change</p>
