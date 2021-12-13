@@ -14,16 +14,27 @@ body {
 
 .tracker-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.coin-row {
+.coin-row,
+.key-row {
   display: flex;
   justify-content: start;
   align-items: center;
   border-bottom: 1px solid #d7d7d7;
   height: 3rem;
   width: 52rem;
+}
+
+[class="key info"] {
+  width: 12rem;
+  padding-left: 7em;
+}
+
+[class="key price"] {
+  margin-left: 4.5rem;
 }
 
 .coin-info {
