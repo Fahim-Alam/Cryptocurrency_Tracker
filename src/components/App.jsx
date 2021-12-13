@@ -36,6 +36,17 @@ const App = () => {
           onChange={handleInputChange}
         />
       </div>
+      <div className="key-row">
+        <div className="coin-info">
+          <p className="key info">Info</p>
+        </div>
+        <div className="data">
+          <p className="key price">Price</p>
+          <p className="key volume">Volume</p>
+          <p className="key percent">Price Change</p>
+          <p className="key market-cap">Market Cap</p>
+        </div>
+      </div>
       {filteredCoins.map((coin) => {
         return (
           <Tracker
