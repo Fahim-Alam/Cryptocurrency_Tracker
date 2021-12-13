@@ -29,7 +29,7 @@ const Tracker = ({
           ) : (
             <p className="percent down">{priceChange.toFixed(2)}%</p>
           )}
-          <p className="market-cap">Cap: ${marketCap.toLocaleString()}</p>
+          <p className="market-cap">${marketCap.toLocaleString()}</p>
         </div>
       </div>
     </div>
