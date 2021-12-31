@@ -1,3 +1,3 @@
 # Cryptocurrency_Tracker
 
-### Tracker made with React that is designed to track digital currencies.
+### This Cryptocurrency Tracker project made with langauges – JavaScript, HTML, and CSS – and framework – React.js. Designed and built to track digital currencies (i.e. volume, price, etc.)
